@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp">
+
+    <TextView
+        android:id="@+id/TVExtDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Factores Externos:" />
+
+    <TextView
+        android:id="@+id/externo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TVExtDesc"
+        android:layout_toStartOf="@+id/IVChevron"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/TVIntDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/externo"
+        android:text="Factores Internos:" />
+
+    <TextView
+        android:id="@+id/interno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TVIntDesc"
+        android:layout_toStartOf="@+id/IVChevron"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/TVCreDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/interno"
+        android:text="Creencias:" />
+
+    <TextView
+        android:id="@+id/creencia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TVCreDesc"
+        android:layout_toStartOf="@+id/IVChevron"
+        android:textColor="@android:color/black" />
+
+
+</RelativeLayout>

@@ -1,0 +1,169 @@
+<resources>
+    <string name="app_name">No Nut App</string>
+    <string name="facebook_application_id">2538438982898299</string>
+    <string name="fb_login_protocol_scheme">fb2538438982898299</string>
+    <string name="title_calendario">Calendario</string>
+    <string name="title_actividades">Actividades</string>
+    <string name="title_home">Home</string>
+    <string name="title_comunidad">Comunidad</string>
+    <string name="title_perfil">Perfil</string>
+
+    <string name="description_diario">
+        Llevar contigo un diario a cada momento te ayudará a distraer tu mente de la adicción, para hacer correctamente esta actividad realiza lo siguiente:
+
+        \n\n    1. Comprar una libreta pequeña que quepa en tu bolsillo y que puedas cargar contigo en todo momento.
+        \n\n    2. Cada vez que sientas la necesidad de masturbarte o ver pornografía, toma tu diario y comienza a describir todo lo que esté pasando a tu alrededor y como te sientas en el momento.
+        \n\n    3. Mientras que estés escribiendo tu necesidad se disipará y una vez que notes que se ha ido completamente puedes dejar de escribir y continuar con la actividad que estabas haciendo.
+        \n\nEs muy importante que esta actividad la hagas justo en el momento cuando la necesidad aparezca, no antes ni después, y que la hagas todas las veces necesarias , sin importar la cantidad. Conforme vayas progresando necesitarás cada vez menos el diario.
+        \n\n
+    </string>
+
+    <string name="description_carta">
+        Para esta actividad deberás escribir una carta dedicada a la adicción en donde dejes en claro lo siguiente:
+
+        \n\n    1. Todo lo bueno que te ha dejado la adicción, momentos de diversión, placer o cualquier cosa positiva que se te venga a la mente.
+        \n\n    2. Después, le dirás a la adicción que aunque te ha dado buenos momentos, ya no la necesitas.
+        \n\n    3. A continuación, escribirás todas tus razones por las cuales estás dejando la adicción y todos los impactos negativos que tiene en tu vida.
+        \n\n    4. Ahora que haz finalizado tu carta, deberás planear alguna forma de destruirla, puede ser quemándola, tirandola al mar, como tu quieras, esto es un simbolismo que estás listo para superar la adicción y continuar con tu vida.
+        \n\n    5. Como último paso, ¡Festeja! Ahora que has soltado a la adicción debes de festejar este logro con tus amigos o seres queridos.
+        \n\n
+    </string>
+
+    <string name="description_pensamientos">
+        1. Piensa en un momento de tu vida en el que te has sentido \"mal\" emocionalmente, selecciona en la 1° columna los pensamientos que llegaste a experimentar durante esa fase.
+        \n\n 2. En la segunda columna califica hasta qué punto creías verdaderos las frases marcadas, utiliza valores del 0 al 10 (0 - nada en absoluto, 10 - los creía completamente).
+        \n\n 3. Ahora piensa en una época en la que te sentías bastante \"bien\", en la tercera columna indica del 0 al 10 hasta qué punto creías esos pensamientos como verdaderos.
+    </string>
+
+    <string name="description_cadena">
+        En este ejercicio se te pide que llenes el contexto en el que estuviste este día, sea positivo o negativo.
+        \n\n 1. Para el apartado de Factores Externos debes de ingresar el contexto en el que te encontrabas, ya sea un lugar, situación o una persona en específico.
+        \n\n 2. Para el apartado de Factores Internos debes de poner como te sentías en el momento, trata de ser descriptivo.
+        \n\n 3. Para el apartado de Creencias debes de poner algún pensamiento que consideres como verdadero que haya podido afectar en tu decisión, por ejemplo: "Para divertirme necesito alcohol."
+    </string>
+
+
+    <string name="pen1">
+        1. Me siento como si me estuviese enfrentando con el mundo.
+    </string>
+    <string name="pen2">
+        2. No sirvo para nada.
+    </string>
+    <string name="pen3">
+        3. ¿Por qué nunca logro mis objetivos?
+    </string>
+    <string name="pen4">
+        4. Nadie me comprende.
+    </string>
+    <string name="pen5">
+        5. He decepcionado a todo el mundo.
+    </string>
+    <string name="pen6">
+        6. No creo que pueda seguir adelante.
+    </string>
+    <string name="pen7">
+        7. Ojalá fuera mejor persona.
+    </string>
+    <string name="pen8">
+        8. Soy tan débil.
+    </string>
+    <string name="pen9">
+        9. Mi vida no va como yo quisiera.
+    </string>
+    <string name="pen10">
+        10. Me he decepcionado mucho a mi mismo.
+    </string>
+    <string name="pen11">
+        11. Ya nada parece sentarme bien.
+    </string>
+    <string name="pen12">
+        12. Ya no puedo soportarlo.
+    </string>
+    <string name="pen13">
+        13. No consigo ponerme en marcha.
+    </string>
+    <string name="pen14">
+        14. Debo tener algún problema.
+    </string>
+    <string name="pen15">
+        15. Desearía poder estar en otro lugar.
+    </string>
+    <string name="pen16">
+        16. No consigo poner las cosas en orden.
+    </string>
+    <string name="pen17">
+        17. Me odio a mi mismo.
+    </string>
+    <string name="pen18">
+        18. No valgo nada.
+    </string>
+    <string name="pen19">
+        19. Ojalá pudiera desaparecer.
+    </string>
+    <string name="pen20">
+        20. ¿Qué es lo que me pasa?
+    </string>
+    <string name="pen21">
+        21. Soy un perdedor.
+    </string>
+    <string name="pen22">
+        22. Mi vida es un desastre.
+    </string>
+    <string name="pen23">
+        23. Soy un fracasado.
+    </string>
+    <string name="pen24">
+        24. Nunca lo conseguiré.
+    </string>
+    <string name="pen25">
+        25. Me siento muy inútil.
+    </string>
+    <string name="pen26">
+        26. Algo tiene que cambiar.
+    </string>
+    <string name="pen27">
+        27. Debe de haber algo en mí que no anda bien.
+    </string>
+    <string name="pen28">
+        28. Mi futuro es negro.
+    </string>
+    <string name="pen29">
+        29. No vale la pena.
+    </string>
+    <string name="pen30">
+        30. No consigo terminar nada.
+    </string>
+
+
+
+
+
+    <string name="material_calendar_monday">L</string>
+    <string name="material_calendar_tuesday">M</string>
+    <string name="material_calendar_wednesday">M</string>
+    <string name="material_calendar_thursday">J</string>
+    <string name="material_calendar_friday">V</string>
+    <string name="material_calendar_saturday">S</string>
+    <string name="material_calendar_sunday">D</string>
+
+    <array name="material_calendar_months_array">
+        <item>Enero</item>
+        <item>Febrero</item>
+        <item>Marzo</item>
+        <item>Abril</item>
+        <item>Mayo</item>
+        <item>Junio</item>
+        <item>Julio</item>
+        <item>Agosto</item>
+        <item>Septiembre</item>
+        <item>Octubre</item>
+        <item>Noviembre</item>
+        <item>Diciembre</item>
+    </array>
+
+    <string name="material_calendar_today_button">Hoy</string>
+    <string name="material_calendar_positive_button">OK</string>
+    <string name="material_calendar_negative_button">Cancelar</string>
+
+
+</resources>

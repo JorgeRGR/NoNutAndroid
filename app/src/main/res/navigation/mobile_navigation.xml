@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_calendario"
+        android:name="com.oniriccreations.nonutapp.ui.calendario.CalendarioFragment"
+        android:label="@string/title_calendario"
+        tools:layout="@layout/fragment_calendario" />
+
+    <fragment
+        android:id="@+id/navigation_actividades"
+        android:name="com.oniriccreations.nonutapp.ui.actividades.ActividadesFragment"
+        android:label="@string/title_actividades"
+        tools:layout="@layout/fragment_actividades" />
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.oniriccreations.nonutapp.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_comunidad"
+        android:name="com.oniriccreations.nonutapp.ui.comunidad.ComunidadFragment"
+        android:label="@string/title_comunidad"
+        tools:layout="@layout/fragment_comunidad" />
+
+    <fragment
+        android:id="@+id/navigation_perfil"
+        android:name="com.oniriccreations.nonutapp.ui.perfil.PerfilFragment"
+        android:label="@string/title_perfil"
+        tools:layout="@layout/fragment_perfil" />
+
+</navigation>

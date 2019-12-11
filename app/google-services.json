@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "105307784297",
+    "firebase_url": "https://no-nut-app-oc.firebaseio.com",
+    "project_id": "no-nut-app-oc",
+    "storage_bucket": "no-nut-app-oc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:105307784297:android:2962969786a36cdafe0ef8",
+        "android_client_info": {
+          "package_name": "com.oniriccreations.nonutapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "105307784297-ie88vboqlj4bqhnvemdkg077hh42s0pk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.oniriccreations.nonutapp",
+            "certificate_hash": "8212aa7dce3991e6cb5f0505dc520ca2f2bffa69"
+          }
+        },
+        {
+          "client_id": "105307784297-v6vsekid84b30bs28o8hqsvpqj74ekjs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcCFGLNDZ5Oz2PaTsEZFdw5zPK4e3bAEo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "105307784297-v6vsekid84b30bs28o8hqsvpqj74ekjs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

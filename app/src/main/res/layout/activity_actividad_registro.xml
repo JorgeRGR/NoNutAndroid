@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.actividades.items.ActividadRegistro">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            >
+
+            <TextView
+                android:id="@+id/TVRegistro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                android:text="Registro"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <TextView
+                android:id="@+id/TVProg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginBottom="16dp"
+                android:text="Registra tu progreso del día de hoy.\nUna vez llenado lo podrás editar hasta finalizar el día."
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <TextView
+                android:id="@+id/TVPreg1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="¿Consumiste pornografía?"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="16dp">
+
+                <RadioButton
+                    android:id="@+id/RBPornSi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sí" />
+
+                <RadioButton
+                    android:id="@+id/RBPornNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/TVPreg2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:text="¿Te masturbaste?"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="16dp" >
+
+                <RadioButton
+                    android:id="@+id/RBMast1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sí" />
+
+                <RadioButton
+                    android:id="@+id/RBMast2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/TVPreg3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:text="¿Cómo te sentiste hoy en general?"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="16dp" >
+
+                <RadioButton
+                    android:id="@+id/RBFeliz"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Feliz" />
+
+                <RadioButton
+                    android:id="@+id/RBRegular"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Regular" />
+
+                <RadioButton
+                    android:id="@+id/RBTriste"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Triste" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/TVPreg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:text="Escribe alguna nota sobre tu día (opcional)"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <EditText
+                android:id="@+id/ETNotas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginRight="16dp"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine" />
+
+            <Button
+                android:id="@+id/bUpload"
+                style="@style/FirebaseUI.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:onClick="uploadReg"
+                android:text="Completar" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

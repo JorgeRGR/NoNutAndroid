@@ -45,9 +45,6 @@ import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
 public class MainActivity extends AppCompatActivity{
-
-    //Holiiiiiiii
-
     private static final int MY_REQUEST_CODE = 7117; //Any number
     List<AuthUI.IdpConfig> providers;
     public Date currentTime = Calendar.getInstance().getTime();
